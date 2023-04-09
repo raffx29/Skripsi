@@ -244,28 +244,35 @@ void loop(){
   int buttonState1 = digitalRead(buttonPin1);
     if (buttonState1 == HIGH){
         digitalWrite(RelayPin1, LOW);
+       (panggil kodingan LCD/ manggil kodingan lcd);
       }
       else{ 
       digitalWrite(RelayPin1, HIGH);
+        (panggil kodingan LCD/ manggil kodingan lcd);
     }
     
   int buttonState2 = digitalRead(buttonPin2);
     if (buttonState3 == HIGH){
       digitalWrite(RelayPin2, LOW);
+      (panggil kodingan LCD/ manggil kodingan lcd);
     }
     else{ 
       digitalWrite(RelayPin2, HIGH);
+      (panggil kodingan LCD/ manggil kodingan lcd);
     }
     
   int buttonState3 = digitalRead(buttonPin3);
     if (buttonState4 == HIGH){
       digitalWrite(RelayPin3, LOW);
+      (panggil kodingan LCD/ manggil kodingan lcd);
     }
     else{ 
       digitalWrite(RelayPin3, HIGH);
+      (panggil kodingan LCD/ manggil kodingan lcd);
     }
   int buttonState4 = digitalRead(buttonPin4);
     if (buttonState4 == HIGH){
+      (panggil kodingan LCD/ manggil kodingan lcd);
       for (pos = 0; pos <= 180; pos += 1){  
         myservo.write(pos);
         delay(25);
